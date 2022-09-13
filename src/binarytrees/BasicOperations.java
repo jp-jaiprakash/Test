@@ -26,6 +26,7 @@ public class BasicOperations {
                 // insert on left side
                 if (left == null) {
                     BST bst = new BST(value);
+                    left = bst;
                 } else {
                     left.insert(value);
                 }
